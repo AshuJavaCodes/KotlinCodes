@@ -1,0 +1,44 @@
+fun main(){
+    println("Hello_Kotlin")
+    //There are four Data types in Kotlin.package
+    //int, short, byte, long
+    
+    var a = 4 //int
+    var b: String = "Hi Kotlin" //String
+    var c: Int = 77
+    var d: Byte = 1
+    var e: Boolean = true
+    var f: Long = 323
+    var g: Short = 32
+    var h: Char ='C'
+    if(true is Boolean){
+        println("True is a Boolean Value")
+    }
+    
+    //Two ways of Defining a Variable in Kotlin
+    //var and val.
+    // var > VALUE CAN CHANGE IN OTHER LINES OF CODE.
+    // value > VALUE IS FIXED FOREVER ACTS LIKE A CONSTANT.
+    // IN KOTLIN VARIABLE SHOULD BE DECLARED BEFORE IT IS USED.
+    // 
+    // 
+    // OPERATORS IN KOTLIN
+    // ADDITON SUBSTRACTION MULTIPLY DIVISION AND REMAINDER OPERATORS
+    // MULTIPLY AND REMAINDER  ARE CHANGED OTHERS ARE EXACTLY SAME AS USED IN JAVA
+    var x: Int = 2
+    var y: Int = 6
+    var result: Int = x.times(y)
+    println("The result is : "+ result)
+
+    //Another changed operator from java is the modulus operator or the Remainder Operator.package
+    var number_one: Int = 12
+    var number_two: Int = 2
+    var resultTwo: Int = number_one.rem(number_two)
+    println("Result Two is : "+resultTwo)
+
+    //Creating a Program to Print The Range of All 
+    val ByteMaxValue = Byte.MAX_VALUE
+    var IntegerMaxValue = Integer.MAX_VALUE
+    println("Byte max Value"+ByteMaxValue)
+    println(IntegerMaxValue)
+}
